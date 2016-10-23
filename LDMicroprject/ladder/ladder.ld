@@ -1,0 +1,17 @@
+LDmicro0.1
+MICRO=ANSI C Code
+CYCLE=10000
+CRYSTAL=4000000
+BAUD=2400
+COMPILED=C:\Users\VuSon\Desktop\123.c
+
+IO LIST
+    XButton at 0
+    YLED at 0
+END
+
+PROGRAM
+RUNG
+    CONTACTS XButton 0
+    COIL YLED 0 0 0
+END
